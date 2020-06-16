@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title:'flutter study',
       //初始化页面为登陆页
       initialRoute: 'login',
